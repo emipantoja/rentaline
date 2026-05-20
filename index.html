@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RENTALINE | Luxury Real Estate & Management</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+            <a class="logo-rentaline" href="#">
+                <i class="fas fa-city"></i>
+                RENTALINE
+            </a>
+            <div class="collapse navbar-collapse justify-content-end">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#mercado">Propiedades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#admin">Administración</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#legal">Legal</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero" id="inicio">
+        <div class="hero-card animate__animated animate__fadeInLeft">
+            <div class="hero-social-circles">
+                <a href="#" class="social-circle"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-circle"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-circle"><i class="fab fa-x-twitter"></i></a>
+                <a href="#" class="social-circle"><i class="fab fa-tiktok"></i></a>
+            </div>
+            <h1>RENTALINE</h1>
+            <p>Venta, Renta y Administración de Condominios con respaldo legal y certificación PROSOC. Tu patrimonio en las mejores manos.</p>
+            <div class="d-flex gap-3">
+                <a href="#contacto" class="btn-custom btn-v">CONTACTARNOS</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 text-center bg-light" id="mercado" style="scroll-margin-top: 90px;">
+        <h2 class="display-5 fw-bold animate__animated animate__fadeIn">Se compra, vende y rentan condominios</h2>
+        <p class="text-muted">Expertos en comercialización inmobiliaria con alcance global.</p>
+    </section>
+
+    <section class="market-split">
+        <div class="market-item">
+            <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=1000" alt="Compra">
+            <div class="market-overlay"></div>
+            <div class="market-content">
+                <h2>Compramos tu Condominio</h2>
+                <p>Proceso directo y seguro. Evaluamos tu propiedad y te ofrecemos una propuesta competitiva.</p>
+                <div class="d-flex gap-2">
+                    <button class="btn-custom btn-v w-100 justify-content-center" data-bs-toggle="collapse" data-bs-target="#collapseCompra">VER REQUISITOS</button>
+                </div>
+                <div class="collapse" id="collapseCompra">
+                    <div class="mt-4 pt-3 border-top text-start">
+                        <p class="mb-2">- Escrituras originales con inscripción en el R.P.P.</p>
+                        <p class="mb-2">- Identificación oficial del propietario.</p>
+                        <p class="mb-2">- Boletas de Predial y Agua sin adeudos.</p>
+                        <p class="mb-3">- Certificado de libertad de gravamen.</p>
+                        <a href="https://wa.me/tu-numero" class="btn-custom btn-w w-100 justify-content-center"><i class="fab fa-whatsapp"></i> INICIAR COMPRA</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="market-item">
+            <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1000" alt="Venta">
+            <div class="market-overlay"></div>
+            <div class="market-content">
+                <h2>Vendemos tu Casa</h2>
+                <p>Proceso 100% gestionado por nosotros. Desde el avalúo hasta la firma notarial.</p>
+                <div class="d-flex gap-2">
+                    <button class="btn-custom btn-v w-100 justify-content-center" data-bs-toggle="collapse" data-bs-target="#collapseVenta">VER REQUISITOS</button>
+                </div>
+                <div class="collapse" id="collapseVenta">
+                    <div class="mt-4 pt-3 border-top text-start">
+                        <p class="mb-2">- Escrituras originales vigentes inscritas en el R.P.P.</p>
+                        <p class="mb-2">- Boletas de Predial y Agua al corriente.</p>
+                        <p class="mb-2">- Identificación de los propietarios.</p>
+                        <p class="mb-3">- Acta de matrimonio (si aplica).</p>
+                        <a href="https://wa.me/tu-numero" class="btn-custom btn-w w-100 justify-content-center"><i class="fab fa-whatsapp"></i> INICIAR VENTA</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="market-item">
+            <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?q=80&w=1000" alt="Renta">
+            <div class="market-overlay"></div>
+            <div class="market-content">
+                <h2>Rentamos tu Casa</h2>
+                <p>Encontramos al inquilino ideal con investigación profunda y póliza jurídica.</p>
+                <div class="d-flex gap-2">
+                    <button class="btn-custom btn-v w-100 justify-content-center" data-bs-toggle="collapse" data-bs-target="#collapseRenta">VER REQUISITOS</button>
+                </div>
+                <div class="collapse" id="collapseRenta">
+                    <div class="mt-4 pt-3 border-top text-start">
+                        <p class="mb-2">- Identificación oficial.</p>
+                        <p class="mb-2">- Comprobante de ingresos (3 meses).</p>
+                        <p class="mb-2">- Fiador con bien raíz o Póliza Jurídica.</p>
+                        <p class="mb-3">- Referencias personales.</p>
+                        <a href="https://wa.me/tu-numero" class="btn-custom btn-w w-100 justify-content-center"><i class="fab fa-whatsapp"></i> INICIAR RENTA</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="admin-big-section" id="admin">
+        <div class="row align-items-center mb-5">
+            <div class="col-lg-6">
+                <h2 class="display-4 fw-bold mb-4 animate__animated animate__fadeInUp">Administración de Condominios</h2>
+                <p class="fs-5">Gestión operativa total: Cobro de mantenimiento, seguridad 24/7 y saneamiento garantizado. Estamos avalados por PROSOC para tu tranquilidad.</p>
+            </div>
+            <div class="col-lg-6">
+                <div class="admin-card-img animate__animated animate__zoomIn">
+                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=800" alt="Administración">
+                    <div class="admin-card-overlay">
+                        <h4>Transparencia y Control</h4>
+                        <p>Sistemas digitales de vanguardia.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row g-4 text-center">
+            <div class="col-md-4 animate__animated animate__fadeInUp" style="animation-delay: 0.1s;">
+                <i class="fas fa-shield-halved fa-3x text-success mb-3"></i>
+                <h4>Security Elite</h4>
+                <p>Personal altamente capacitado y monitoreo constante.</p>
+            </div>
+            <div class="col-md-4 animate__animated animate__fadeInUp" style="animation-delay: 0.2s;">
+                <i class="fas fa-chart-line fa-3x text-success mb-3"></i>
+                <h4>Plusvalía Real</h4>
+                <p>Mantenimiento preventivo que aumenta el valor de tu hogar.</p>
+            </div>
+            <div class="col-md-4 animate__animated animate__fadeInUp" style="animation-delay: 0.3s;">
+                <i class="fas fa-file-invoice-dollar fa-3x text-success mb-3"></i>
+                <h4>Cuentas Claras</h4>
+                <p>Estados de cuenta en tiempo real para cada residente.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="legal-section" id="legal">
+        <h2 class="text-center display-5 fw-bold mb-5">Servicios Legales Especializados</h2>
+        <div class="legal-grid">
+            <div class="legal-card-v2 animate__animated animate__fadeInLeft">
+                <i class="fas fa-stamp"></i>
+                <h4>Regulación Notarial</h4>
+                <p>Gestión completa ante el Registro Público de la Propiedad, protocolización de actas y fe pública para actos jurídicos.</p>
+            </div>
+            <div class="legal-card-v2 animate__animated animate__fadeInLeft" style="animation-delay: 0.1s;">
+                <i class="fas fa-users-rectangle"></i>
+                <h4>Sucesiones</h4>
+                <p>Tramitación de juicios testamentarios e intestamentarios, adjudicación de bienes y representación en herencias complexes.</p>
+            </div>
+            <div class="legal-card-v2 animate__animated animate__fadeInLeft" style="animation-delay: 0.2s;">
+                <i class="fas fa-file-signature"></i>
+                <h4>Escrituración</h4>
+                <p>Cálculo de impuestos por adquisición, traslado de dominio y acompañamiento total hasta la entrega de tu escritura física.</p>
+            </div>
+            <div class="legal-card-v2 animate__animated animate__fadeInLeft" style="animation-delay: 0.3s;">
+                <i class="fas fa-gavel"></i>
+                <h4>Prescripción</h4>
+                <p>Juicios de Usucapión y procesos de inmatriculación administrativa para regularizar la tenencia de tu propiedad legalmente.</p>
+            </div>
+            <div class="legal-card-v2 animate__animated animate__fadeInLeft" style="animation-delay: 0.4s;">
+                <i class="fas fa-scale-balanced"></i>
+                <h4>Mediación Condominal</h4>
+                <p>Resolución de conflictos entre residentes, arbitraje privado y cumplimiento estricto de la Ley de Propiedad en Condominio.</p>
+            </div>
+            <div class="legal-card-v2 animate__animated animate__fadeInLeft" style="animation-delay: 0.5s;">
+                <i class="fas fa-file-contract"></i>
+                <h4>Contratos de Blindaje</h4>
+                <p>Elaboración de contratos de arrendamiento con cláusulas de protección jurídica avanzada y desocupación inmediata.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-5">
+        <div class="container">
+            <div class="row text-start">
+                <div class="col-md-4 mb-4">
+                    <div class="footer-logo mb-3" style="font-weight: 800; font-size: 28px; color: var(--verde-rentaline);">RENTALINE</div>
+                    <p class="opacity-75">Tu patrimonio en las mejores manos. Gestión inmobiliaria con respaldo legal y profesionalismo.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5 class="fw-bold mb-4">Contacto</h5>
+                    <p class="mb-2"><i class="fas fa-phone me-2 text-success"></i> +52 55 1234 5678</p>
+                    <p class="mb-2"><i class="fas fa-envelope me-2 text-success"></i> contacto@rentaline.com.mx</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5 class="fw-bold mb-4">Ubicación</h5>
+                    <p class="mb-0"><i class="fas fa-map-marker-alt me-2 text-success"></i> Av. Paseo de la Reforma, CDMX, México.</p>
+                </div>
+            </div>
+            <hr class="mt-4 opacity-25">
+            <div class="d-flex justify-content-between align-items-center flex-wrap">
+                <p class="opacity-50 mb-0">© 2026 RENTALINE. Todos los derechos reservados.</p>
+                <div class="hero-social-circles mb-0">
+                    <a href="#" class="social-circle" style="width:35px; height:35px; font-size:14px;"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-circle" style="width:35px; height:35px; font-size:14px;"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-circle" style="width:35px; height:35px; font-size:14px;"><i class="fab fa-x-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
